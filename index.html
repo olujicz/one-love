@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Ansible-one-love : One click solution to provisioning, deployment and migration of your apps using Ansible and Django">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Ansible-one-love</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/one-love/ansible-one-love">View on GitHub</a>
+
+          <h1 id="project_title">Ansible-one-love</h1>
+          <h2 id="project_tagline">One click solution to provisioning, deployment and migration of your apps using Ansible and Django</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/one-love/ansible-one-love/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/one-love/ansible-one-love/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="one-love" class="anchor" href="#one-love"><span class="octicon octicon-link"></span></a>One Love</h1>
+
+<p><a href="https://travis-ci.org/one-love/ansible-one-love"><img src="https://travis-ci.org/one-love/ansible-one-love.svg?branch=master" alt="Build Status"></a></p>
+
+<h3>
+<a name="requirements-and-development-setup" class="anchor" href="#requirements-and-development-setup"><span class="octicon octicon-link"></span></a>Requirements and development setup</h3>
+
+<ul>
+<li>
+<a href="https://www.virtualbox.org/">VirtualBox</a>
+
+<ul>
+<li>All boxes are tested in VirtualBox virtualization platform</li>
+</ul>
+</li>
+<li>
+<a href="http://www.vagrantup.com/">Vagrant</a>
+
+<ul>
+<li>To run all VirtualBox instances effortlessly, Vagrant is used to automate VM creation/provisioning/destruction</li>
+</ul>
+</li>
+<li>
+<a href="http://www.ansible.com/">Ansible</a>
+
+<ul>
+<li>Server setup and configuration is done through Ansible for One Love, as for all other applications</li>
+</ul>
+</li>
+</ul><h3>
+<a name="first-run" class="anchor" href="#first-run"><span class="octicon octicon-link"></span></a>First run</h3>
+
+<p>Clone this repo, <code>cd</code> into it, and run <code>vagrant up</code>. The process will take a while and should give you fully configured VirtualBox VM instance. Execute <code>vagrant ssh onelove</code> and you'll be inside VM, ready to develop. Run <code>~/bin/runserver.sh</code> and point your browser to <a href="http://192.168.33.33:8000">Vagrant VM</a>. Login with <a href="mailto:admin@example.com">admin@example.com</a>/Sekrit</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Ansible-one-love maintained by <a href="https://github.com/one-love">one-love</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
